@@ -5,9 +5,6 @@ import Signup from "./components/SignUp";
 // types
 import { ISignUpProps, ISignInProps } from "./types";
 
-// styles
-import "./App.css";
-
 export default function App() {
   function signInValues(values: ISignInProps) {
     console.log(values);

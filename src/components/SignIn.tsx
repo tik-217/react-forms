@@ -11,6 +11,8 @@ import Input from "./Input";
 import { handleSubmit } from "../services/handleSubmit";
 import { handleChange } from "../services/handleChange";
 
+import "../styles/SignIn.css";
+
 export default function Signin({
   onSubmit,
 }: {
